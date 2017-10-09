@@ -22,7 +22,6 @@ import com.antonakospanos.oca.m09exceptions.examples.MyCheckedException;
 import com.antonakospanos.oca.m10apis.examples.CalendarManipulation;
 import com.antonakospanos.oca.m10apis.examples.StringBuilderManipulation;
 import com.antonakospanos.oca.m10apis.examples.StringManipulation;
-import com.antonakospanos.ocp.Introduction;
 
 /**
  * App created in the context of OCA training
@@ -149,14 +148,14 @@ public class Main implements Serializable {
 	}
 	
 	/**
-	 *  Introduction to OCPJP8
+	 *  Main to OCPJP8
 	 */
 	private static void introductionToOCP() {
-		System.out.println("------------------- Starting Introduction to OCPJP8 -------------------");
+		System.out.println("------------------- Starting Main to OCPJP8 -------------------");
 
-		Executor.runStaticMethods(Introduction.class.getName(), 0, Arrays.asList("notifyAll", "wait", "notify"));
+		Executor.runStaticMethods(com.antonakospanos.ocp.Main.class.getName(), 0, Arrays.asList("notifyAll", "wait", "notify"));
 		
-		System.out.println("------------------- Finishing Introduction to OCPJP8 -------------------\n");
+		System.out.println("------------------- Finishing Main to OCPJP8 -------------------\n");
 	}
 	
 	

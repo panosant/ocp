@@ -6,7 +6,7 @@ import com.antonakospanos.oca.m03datatypes.examples.MutableStringWrapper;
 import com.antonakospanos.ocp.m11extras.reflection.Reflection;
 import com.antonakospanos.ocp.m04functional.stream.StreamManipulation;
 
-public class Introduction {
+public class Main {
 	
 	public static void main (String... args) {
 		reflection();
